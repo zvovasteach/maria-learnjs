@@ -1,0 +1,31 @@
+{
+  "name": "learnjs",
+  "private": true,
+  "description": "Домашние работы по учебнику learn.javascript.ru",
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.8.1",
+    "eslint": "^8.57.1",
+    "eslint-config-htmlacademy": "^10.0.1",
+    "eslint-plugin-compat": "^6.0.1"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "eslint": "eslint \"source/**/*.js\"",
+    "lint": "npm run editorconfig"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not < 0.25%"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js"
+  ],
+  "engines": {
+    "node": "^20"
+  },
+  "type": "module"
+}
